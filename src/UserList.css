@@ -1,0 +1,51 @@
+/* UserList.css */
+
+/* Style global pour le conteneur principal */
+div {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style du titre */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Style de la liste des utilisateurs */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style pour les informations de l'utilisateur */
+  p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  strong {
+    color: #333;
+    font-weight: bold;
+  }
+  
